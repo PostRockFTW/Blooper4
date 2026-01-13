@@ -13,7 +13,8 @@ class Processor(BaseProcessor):
         reverb_out = np.zeros_like(data)
         for d in delay_times:
             d_samples = int(d * size * SAMPLE_RATE)
-            if d_samples >= len(data): continue
+            # Skip if delay is too small or too large
+            if d_samples <= 0 or d_samples >= len(data): continue
             temp = np.zeros_like(data)
             temp[d_samples:] = data[:-d_samples] * (0.4 + mix * 0.4)
             reverb_out += temp
@@ -42,7 +43,8 @@ class UI(BaseUIElement):
         self.size_slider.draw(screen, self.font)
 
     def handle_event(self, event, fx_data):
-        if hasattr(event, 'pos'):
+        # Only check button interactions on actual clicks, not hover
+        if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1 and hasattr(event, 'pos'):
             action = self.check_standard_interactions(event.pos, UI_SCALE)
             if action == "TOGGLE": self.active = not self.active
             if action == "DELETE": return "DELETE"

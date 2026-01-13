@@ -71,8 +71,9 @@ class BuilderView(BaseView):
 
         ui_data = self.ui_instances[active_idx]
 
-        # === TWO-COLUMN LAYOUT ===
-        left_x = self.rect.x + scale(20)
+        # === TWO-COLUMN LAYOUT WITH HORIZONTAL SCROLL ===
+        # Apply scroll_x to both columns so everything scrolls together
+        left_x = self.rect.x + scale(20) - self.scroll_x
         right_x = left_x + scale(320)  # 300 (panel width) + 20 (gap)
         curr_y = self.rect.y + scale(10)
 
@@ -93,14 +94,14 @@ class BuilderView(BaseView):
         curr_y = self.mode_toggle_ui.rect.bottom + scale(10)
 
         # --- ROW 2: MAIN CONTENT (TWO COLUMNS) ---
-        # LEFT COLUMN: MODE-SPECIFIC PANEL
+        # LEFT COLUMN: MODE-SPECIFIC PANEL (now scrolls with everything)
         if track.mode == "SAMPLER":
             self.sampler_brain_ui.draw(screen, track, left_x, curr_y, UI_SCALE)
         else:  # SYNTH mode
             self.piano_roll_settings_ui.draw(screen, track, left_x, curr_y, UI_SCALE)
 
         # RIGHT COLUMN: SOURCE RACK (Horizontal chain)
-        curr_x = right_x - self.scroll_x
+        curr_x = right_x
         prev_module = None
 
         # A. DRAW ACTIVE SOURCE
@@ -127,21 +128,34 @@ class BuilderView(BaseView):
             prev_module = fx_ui
             curr_x = prev_module.rect.right + scale(20)
 
-        # C. DRAW ADD FX BUTTON
+        # C. DRAW ADD FX BUTTON (position it for fx_dropdown)
         self.add_btn_rect = pygame.Rect(curr_x, curr_y, scale(80), scale(60))
         pygame.draw.rect(screen, (30, 30, 35), self.add_btn_rect, border_radius=scale(10))
         txt = self.font.render("+ FX", True, GRAY)
         screen.blit(txt, (self.add_btn_rect.centerx - txt.get_width()//2,
                           self.add_btn_rect.centery - 5))
 
-        # D. DRAW SOURCE DROPDOWN LAST (so it appears on top of everything)
+        # Position the fx_dropdown at the button location
+        self.fx_dropdown.move_to(curr_x, curr_y, scale(80), scale(60))
+
+        # D. DRAW DROPDOWNS LAST (so they appear on top of everything)
         self.source_dropdown.draw(screen, self.font)
+        self.fx_dropdown.draw(screen, self.font)
 
         screen.set_clip(old_clip)
 
     def handle_event(self, event, song, active_idx):
         track = song.tracks[active_idx]
         ui_data = self.ui_instances[active_idx]
+
+        # Handle horizontal scrolling for entire builder view
+        if event.type == pygame.MOUSEWHEEL:
+            # Check if mouse is over the builder view area
+            if self.rect.collidepoint(pygame.mouse.get_pos()):
+                # Horizontal scroll with mouse wheel
+                scroll_speed = scale(100)
+                self.scroll_x = max(0, self.scroll_x - event.y * scroll_speed)
+                return
 
         # Guard: Only route if event has position
         if not hasattr(event, 'pos'):
@@ -195,14 +209,22 @@ class BuilderView(BaseView):
                 ui_data["SOURCE"].handle_event(event, track)
             return
 
-        # 4. ROUTE TO FX CHAIN (with collision check)
+        # 4. ROUTE TO FX CHAIN (with collision check and DELETE handling)
         for i, fx_ui in enumerate(ui_data["FX"]):
             if fx_ui.rect.collidepoint(event.pos):
-                fx_ui.handle_event(event, track.effects[i])
+                result = fx_ui.handle_event(event, track.effects[i])
+                if result == "DELETE":
+                    # Remove the effect from the track
+                    track.effects.pop(i)
+                    # Resync UI to rebuild FX chain
+                    self._sync_ui_instances(track, active_idx)
                 return
 
-        # 5. CHECK ADD FX BUTTON (TODO: Replace with fx_dropdown later)
-        if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
-            if hasattr(self, 'add_btn_rect') and self.add_btn_rect.collidepoint(event.pos):
-                # TODO: Use fx_dropdown.handle_event() instead
-                pass
+        # 5. HANDLE FX DROPDOWN (Add new effects)
+        result = self.fx_dropdown.handle_event(event)
+        if result and result != "TOGGLE":
+            # User selected an effect type to add
+            track.add_effect(result)
+            # Resync UI to show the new FX module
+            self._sync_ui_instances(track, active_idx)
+            return

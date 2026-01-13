@@ -41,7 +41,8 @@ class UI(BaseUIElement):
             screen.blit(lbl, (s.rect.x, s.rect.bottom + 5))
 
     def handle_event(self, event, fx_data):
-        if hasattr(event, 'pos'):
+        # Only check button interactions on actual clicks, not hover
+        if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1 and hasattr(event, 'pos'):
             action = self.check_standard_interactions(event.pos, UI_SCALE)
             if action == "TOGGLE": self.active = not self.active
             if action == "DELETE": return "DELETE"

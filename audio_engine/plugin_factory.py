@@ -23,7 +23,8 @@ class PluginFactory:
 
         self.effect_registry = {
             "EQ": "eq",
-            "REVERB": "reverb"
+            "REVERB": "reverb",
+            "PLATE_REVERB": "plate_reverb"
         }
         
         # Combine them for the internal loader

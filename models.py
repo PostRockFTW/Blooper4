@@ -164,7 +164,11 @@ class Track:
         
     def add_effect(self, effect_type):
         if len(self.effects) < 8:
-            defaults = {"EQ": {f"band_{i}": 1.0 for i in range(8)}, "REVERB": {"mix": 0.1, "size": 0.5}}
+            defaults = {
+                "EQ": {f"band_{i}": 1.0 for i in range(8)},
+                "REVERB": {"mix": 0.1, "size": 0.5},
+                "PLATE_REVERB": {"mix": 0.2, "decay": 0.6, "damping": 0.7, "predelay": 0.01}
+            }
             self.effects.append({"type": effect_type, "params": defaults.get(effect_type, {}), "active": True})
 
     def add_note(self, tick, pitch, duration, velocity=100):
