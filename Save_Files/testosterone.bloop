@@ -1,0 +1,1898 @@
+{
+    "version": "4.0.0",
+    "bpm": 120,
+    "length_ticks": 1920,
+    "tracks": [
+        {
+            "name": "Track 1",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": [
+                {
+                    "t": 480,
+                    "p": 53,
+                    "d": 480,
+                    "v": 100
+                },
+                {
+                    "t": 960,
+                    "p": 62,
+                    "d": 480,
+                    "v": 100
+                },
+                {
+                    "t": 1440,
+                    "p": 59,
+                    "d": 480,
+                    "v": 100
+                }
+            ]
+        },
+        {
+            "name": "Track 2",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 3",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 4",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 5",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 6",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 7",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 8",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 9",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Drums",
+            "is_drum": true,
+            "source_type": "NOISE_DRUM",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 11",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 12",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 13",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 14",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 15",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        },
+        {
+            "name": "Track 16",
+            "is_drum": false,
+            "source_type": "DUAL_OSC",
+            "source_params": {
+                "osc1_type": "SAW",
+                "osc2_type": "SINE",
+                "osc2_detune": 10,
+                "noise_type": "WHITE",
+                "volume": 0.8
+            },
+            "params": {
+                "volume": 0.8,
+                "pan": 0.5,
+                "mute": false,
+                "solo": false
+            },
+            "effects": [],
+            "drum_pads": {
+                "34": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "35": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "36": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "37": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "38": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "39": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "40": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "41": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "42": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "43": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "44": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "45": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "46": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "47": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "48": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "49": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "50": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "51": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                },
+                "52": {
+                    "type": "DRUM",
+                    "pitch": 60,
+                    "length": 0.3
+                }
+            },
+            "notes": []
+        }
+    ]
+}
